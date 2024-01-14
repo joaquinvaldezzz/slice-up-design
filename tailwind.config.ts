@@ -1,3 +1,4 @@
+import { fontFamily } from "tailwindcss/defaultTheme"
 import type { Config } from "tailwindcss"
 import files from "./files"
 
@@ -24,6 +25,9 @@ export default {
           1: "#010021",
           2: "#293356",
         },
+      },
+      fontFamily: {
+        sans: ["Inter", ...fontFamily.sans],
       },
     },
   },
