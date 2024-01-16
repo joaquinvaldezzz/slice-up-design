@@ -1,8 +1,8 @@
-const files = require("./files")
+const files = require('./files')
 
 module.exports = {
   plugins: {
-    "@fullhuman/postcss-purgecss": process.env.NODE_ENV === "production" && {
+    '@fullhuman/postcss-purgecss': process.env.NODE_ENV === 'production' && {
       content: [...files],
       defaultExtractor: (content) => {
         const broadMatches = content.match(/[^<>"'`\s]*[^<>"'`\s:]+/g) || []
@@ -11,11 +11,11 @@ module.exports = {
       },
       keyframes: true,
       variables: true,
-      safelist: ["html", "body"],
+      safelist: ['html', 'body'],
     },
     autoprefixer: {},
-    "postcss-import": {},
-    "postcss-sort-media-queries": {},
+    'postcss-import': {},
+    'postcss-sort-media-queries': {},
     tailwindcss: {},
   },
 }
