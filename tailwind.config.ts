@@ -14,7 +14,8 @@ export default {
     },
     extend: {
       boxShadow: {
-        card: '0px 2px 6px -4px rgba(0, 11, 67, 0.10)',
+        card: '0 2px 6px -4px rgba(0, 11, 67, 0.10)',
+        button: '0 12px 14px rgba(0, 14, 87, 0.12)',
       },
       colors: {
         body: '#f6f6f6',
@@ -24,6 +25,7 @@ export default {
         dark: {
           1: '#010021',
           2: '#293356',
+          5: '#b0b8d0',
         },
         divider: '#f0f3f8',
       },
