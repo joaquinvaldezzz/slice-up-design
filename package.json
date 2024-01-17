@@ -28,6 +28,7 @@
     ]
   },
   "dependencies": {
+    "@heroicons/react": "^2.1.1",
     "embla-carousel-react": "^8.0.0-rc19",
     "next": "^14.0.4",
     "react": "18.2.0",
