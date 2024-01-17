@@ -30,9 +30,10 @@ export default {
         divider: '#f0f3f8',
       },
       fontFamily: {
-        sans: ['Inter', ...fontFamily.sans],
+        sans: ['"TT Hoves Pro Trial"', ...fontFamily.sans],
       },
       spacing: {
+        4.5: '1.125rem',
         5.5: '1.375rem',
       },
     },

@@ -2,18 +2,34 @@
 
 @layer base {
   @font-face {
-    font-family: 'Inter';
-    font-weight: 100 900;
+    font-family: 'TT Hoves Pro Trial';
+    font-weight: 400;
     font-display: swap;
     font-style: normal;
-    src: url('/fonts/Inter-roman.var.woff2') format('woff2');
+    src: url('/fonts/TTHovesProTrial-Regular.woff2') format('woff2');
   }
 
   @font-face {
-    font-family: 'Inter';
-    font-weight: 100 900;
+    font-family: 'TT Hoves Pro Trial';
+    font-weight: 500;
     font-display: swap;
-    font-style: italic;
-    src: url('/fonts/Inter-italic.var.woff2') format('woff2');
+    font-style: normal;
+    src: url('/fonts/TTHovesProTrial-Medium.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'TT Hoves Pro Trial';
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+    src: url('/fonts/TTHovesProTrial-Demibold.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: 'TT Hoves Pro Trial';
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+    src: url('/fonts/TTHovesProTrial-Bold.woff2') format('woff2');
   }
 }
